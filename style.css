@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+html,body {
+    height: 100%;
+}
+
+
+
+.beggin-end {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/Cyperpunk-1920x1080-3d91f91b1b32cbe6b745f92ef6c582e4.png?resize=1&w=1920");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.beggin-end h2 {
+    color: transparent;  
+    font-size: 70px;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.263);
+    transition: 1s color;
+    padding: 0 2%;
+}
+
+.beggin-end h2:hover {
+   
+    color: white;
+}
+
+.article {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(#53435f, #2b2331);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.article:hover {
+    background: linear-gradient(#53435f, #261e2b);
+}
+
+
+.article p {
+    text-align: center;
+    line-height: 35px;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+
+.parallax {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/City-1920x1080-28f30581b2887858fbb6ad442a0b0baa.png?resize=1&w=1920");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.parallax h2 {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.263);
+    transition: 1s color;
+}
+
+.parallax h2:hover {
+    color: white;
+}
+
